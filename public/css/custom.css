@@ -1,0 +1,72 @@
+#home {
+    background-image: url(/img/home-bg.jpg);
+    background-color: rgb(177, 177, 177);
+    background-blend-mode: darken;
+}
+#home h1 {
+    border: 1px solid #ffffff77;
+    color: black;
+    font-size: 5rem;
+    font-family: 'Cedarville Cursive', cursive;
+}
+#home .btn {
+    border: 2px solid #d43f52;
+    color: white;
+    background-color: #d43f5233;
+}
+#home .btn:hover {
+    color: white;
+}
+.sim-eleg {
+    color: white;
+}
+#home p {
+    color: #dadada;
+}
+.backend b {
+    color: #d43f52;
+}
+#about i {
+    font-size: 2.4rem;
+}
+ 
+/* PORFOLIO */
+#portfolio .portfolio-thumb .portfolio-overlay {
+    background: #fff;
+    display: inline;
+    top: 50%;
+    left: 50%;
+    bottom: auto;
+    right: auto;
+    opacity: 0.6;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    border-radius: 0.5rem;
+    width: auto;
+    height: auto;
+    position: absolute;
+    padding: 0.6rem;
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+}
+#portfolio .portfolio-thumb:hover .portfolio-overlay {
+    transform: translate(-50%, -50%);
+    opacity: 0.7;
+}
+#portfolio a{
+    color: gray;
+}
+@media only screen and (max-width: 670px) {
+#portfolio .portfolio-thumb .portfolio-overlay {
+    padding: 0.4rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 0.3rem;
+    font-size: 2rem;
+}
+}
+
+/* CONTACT */
+#contact a {
+    
+}
